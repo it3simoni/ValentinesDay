@@ -11,8 +11,8 @@ const body = document.querySelector('body')
 function yes() {
     text.style.display = 'block'
     buttons.style.display = 'none'
-    question.textContent = "Yey! It's a date then"
-    gif.src = '/assets/giphy.gif'
+    question.textContent = "Yey! Wir haben ein Date!"
+    gif.src = 'assets/happy.gif'
 
 
     createHearts(100);
@@ -21,8 +21,8 @@ function yes() {
 
 
 
-var phrase = ['why no?', 'u dont want?:(', 'still no?', 'should be yes!', 'yess ;)']
-var gifs = ['/assets/hug-me-im-sad.gif', '/assets/goma-peach.gif', '/assets/cash-app-empty.gif', '/assets/sad.gif', '/assets/cry-cute.gif', '/assets/reaction-sad.gif']
+var phrase = ['wieso nicht?', 'du liebst mich niiicht?:(', 'immer noch nicht?', 'jetzt REICHTS!', 'DU HAST KEINE WAHL;)']
+var gifs = ['assets/hug-me-im-sad.gif', 'assets/goma-peach.gif', 'assets/cash-app-empty.gif', 'assets/sad.gif', 'assets/angry.gif', 'assets/reaction-sad.gif']
 var noCount = 0
 
 function no() {
@@ -50,7 +50,7 @@ function createHearts(numbers) {
 for (var i = 0; i < numbers; i++) {
     var heart = document.createElement("img");
 
-    heart.src = '/assets/Heart_corazón.svg.png';
+    heart.src = 'assets/Heart_corazón.svg.png';
     heart.alt = "Heart";
     heart.classList.add("heart");
     heart.classList.add("heart" + (i % 3 + 1)); // Assigning different animation classes

@@ -1,12 +1,10 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 1.5rem;
-    font-family: 'Kalam', cursive;
-    color: wheat;
-}
+* .borel-regular {
+    font-family: "Borel", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body {
     position: relative;
     height: 100vh;
@@ -17,14 +15,14 @@ body {
     flex-direction: column;
     gap: 1rem;
     overflow: hidden;
-    background-color: rgba(227, 61, 148);
+    background-color: rgb(159, 44, 44);
 }
 button {
     font-size: 1rem;
     padding: .4rem 1rem;
-    border: 1px solid #000000;
+    border: 1px solid #30be8a;
     border-radius: 10px;
-    color: #000000;
+    color: #69d970;
 }
 
 .yes {
@@ -46,7 +44,7 @@ button {
 }
 .heart {
 position: absolute;
-animation: heartAnimation 5.5s ease-out forwards;
+animation: heartAnimation 7.5s ease-out forwards;
 }
 .question {
 text-align: center;
